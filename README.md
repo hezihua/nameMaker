@@ -13,8 +13,8 @@
 ## 运行
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 打开 [http://localhost:3000](http://localhost:3000)。
@@ -35,7 +35,7 @@ npx vercel --prod   # 生产
 修改 `scripts/extract-dictionary.py` 中的 PDF 路径（默认指向微信文件目录），然后：
 
 ```bash
-npm run extract-dict
+pnpm extract-dict
 ```
 
 ## 技术栈
